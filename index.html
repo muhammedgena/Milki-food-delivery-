@@ -4,17 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>milki-food-delivery</title>
+    <meta name="theme-color" content="#176b45" />
+    <meta name="description" content="MILKI FOOD & DRINK DELIVERY — order food and drinks from local vendors across Ethiopia." />
+    <title>MILKI FOOD & DRINK DELIVERY</title>
   </head>
   <body>
-    <div id="root" style="padding:24px;font:18px Arial;color:#222">MILKI is starting...</div>
-    <script>document.getElementById("root").textContent = "MILKI browser JavaScript is running";</script>
-    <script type="module">
-  document.getElementById("root").textContent = "MILKI module JavaScript started";
-  import("./src/main.jsx").catch(error => {
-    document.getElementById("root").textContent =
-      "MILKI module import failed: " + (error.stack || error.message || error);
-  });
-</script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
